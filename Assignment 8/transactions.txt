@@ -1,0 +1,6 @@
+Deposit: $100
+Purchase - Coffee: $4.5
+Purchase - Book: $25
+Deposit: $100
+Purchase - Sandwich: $10
+Purchase - Uber: $25
