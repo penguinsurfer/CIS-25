@@ -1,3 +1,0 @@
-George 1 70 100 52
-Kelvin 2 92 85 98
-Jason 3 82 68 95
