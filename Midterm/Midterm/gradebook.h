@@ -1,17 +1,17 @@
-#ifndef GRADEBOOK_H
+#ifndef GRADEBOOK_H // Header guard to prevent multiple inclusions
 #define GRADEBOOK_H
 
-#include "student.h"
+#include "student.h" // Include Student class
 
 class GradeBook {
 private:
-	Student** students;
+	Student** students; // Array of pointers to Student objects
 	int capacity;
-	int count;
+	int count; 
 
 public:
-	GradeBook(int capacity = 100);
-	~GradeBook(); // Free dynamically allocated memory
+	GradeBook(int capacity = 100); // Constructor
+	~GradeBook(); // Destructor
 
 	void addStudent(Student* s);
 	void loadFromFile(const string& filename);
@@ -21,4 +21,4 @@ public:
 	void sortByID();
 };
 
-#endif
+#endif // Header guard end

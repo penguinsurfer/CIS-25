@@ -1,14 +1,14 @@
 #include <iostream>
-#include "gradebook.h"
+#include "gradebook.h" // Include GradeBook class
 using namespace std;
 
 int main() {
 	GradeBook book;
 	book.loadFromFile("students.txt");
 
-	cout << "Student List\n";
+	cout << "Student List\n"; 
 	book.printAll();
-	book.sortByID(); // binary search
+	book.sortByID(); 
 
 	string searchForID;
 	cout << "\nEnter student ID to search for: ";
@@ -23,7 +23,7 @@ int main() {
 		cout << "\nStudent with ID " << searchForID << " not found.\n";
 	}
 
-	book.saveToFile("output.txt");
+	book.saveToFile("output.txt"); 
 	cout << "\nGrades saved to output.txt\n";
 
 	return 0;

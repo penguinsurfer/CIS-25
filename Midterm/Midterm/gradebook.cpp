@@ -2,12 +2,14 @@
 #include <fstream>
 #include <iostream>
 
+// Constructor 
 GradeBook::GradeBook(int capacity) {
 	this->capacity = capacity;
 	count = 0;
 	students = new Student * [capacity];
 }
 
+// Destructor
 GradeBook::~GradeBook() {
 	for (int i = 0; i < count; ++i) {
 		delete students[i];
@@ -15,6 +17,7 @@ GradeBook::~GradeBook() {
 	delete[] students;
 }
 
+// Add a student to the grade book
 void GradeBook::addStudent(Student* s) {
 	if (count < capacity) {
 		students[count++] = s;
@@ -30,6 +33,8 @@ void GradeBook::loadFromFile(const string& filename) {
 
 	string name, id;
 	int g1, g2, g3;
+
+	// Clear existing students
 	while (file >> name >> id >> g1 >> g2 >> g3) {
 		int grades[3] = { g1,g2,g3 };
 		addStudent(new Student(name, id, grades, 3));
@@ -38,6 +43,7 @@ void GradeBook::loadFromFile(const string& filename) {
 	file.close();
 }
 
+// Print all students
 void GradeBook::printAll() const {
 	for (int i = 0; i < count; ++i) {
 		students[i]->printInfo();
@@ -59,6 +65,7 @@ void GradeBook::saveToFile(const string& filename) const {
 	file.close();
 }
 
+// Binary search
 Student* GradeBook::binarySearchByID(const string& targetID) const {
 	int low = 0, high = count - 1;
 	while (low <= high) {
@@ -77,6 +84,7 @@ Student* GradeBook::binarySearchByID(const string& targetID) const {
 	return nullptr;
 }
 
+// Sort students by ID using bubble sort
 void GradeBook::sortByID() {
 	for (int i = 0; i < count - 1; ++i) {
 		for (int j = i + 1; j < count; ++j) {
