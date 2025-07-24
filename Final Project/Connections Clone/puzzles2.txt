@@ -1,0 +1,11 @@
+GROUP: SHAPES
+Circle,Square,Triangle,Rectangle
+
+GROUP: SPORTS
+Soccer,Basketball,Baseball,Tennis
+
+GROUP: VEHICLES
+Car,Bus,Train,Plane
+
+GROUP: DRINKS
+Water,Juice,Tea,Coffee

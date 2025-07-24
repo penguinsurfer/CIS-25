@@ -1,0 +1,11 @@
+GROUP: COLORS
+Red,Blue,Green,Yellow
+
+GROUP: ANIMALS
+Lion,Tiger,Bear,Wolf
+
+GROUP: TOOLS
+Hammer,Drill,Wrench,Screwdriver
+
+GROUP: FRUITS
+Apple,Banana,Peach,Mango
