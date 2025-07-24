@@ -1,1 +1,4 @@
 Username: test_run | Puzzle: puzzleFile | Result: Won
+Username: test_runner | Puzzle: puzzleFile | Result: Won
+Username: test_runner 2 | Puzzle: puzzleFile | Result: Won
+Username: george | Puzzle: puzzleFile | Result: Won

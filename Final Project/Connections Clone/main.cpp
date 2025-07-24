@@ -12,7 +12,7 @@ int main() {
 	cout << "Enter your username: ";
 	getline(cin, username);
 
-	cout << "Hello "<<username<<"! Choose a puzzle to load : \n";
+	cout << "Hello "<<username<<"! Choose a puzzle to load: \n";
 	cout << "1. Puzzle 1\n";
 	cout << "2. Puzzle 2\n";
 	cout << "Enter choice (1 or 2): ";
