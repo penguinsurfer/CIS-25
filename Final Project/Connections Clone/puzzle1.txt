@@ -1,11 +1,11 @@
-GROUP: COLORS
-Red,Blue,Green,Yellow
+GROUP: PERSISTENCE
+Hold,Last,Stand,Stay
 
-GROUP: ANIMALS
-Lion,Tiger,Bear,Wolf
+GROUP: BIO HEADINGS
+Born,Education,Occupation,Spouse
 
-GROUP: TOOLS
-Hammer,Drill,Wrench,Screwdriver
+GROUP: MARKET ANIMALS
+Bear,Bull,Dove,Hawk
 
-GROUP: FRUITS
-Apple,Banana,Peach,Mango
+GROUP: MONEY HOMOPHONES
+Bred,Cache,Doe,Lute

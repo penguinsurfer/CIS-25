@@ -1,11 +1,11 @@
-GROUP: SHAPES
-Circle,Square,Triangle,Rectangle
+GROUP: KEYBOARD COMMANDS
+Paste,Print,Quit,Save
 
-GROUP: SPORTS
-Soccer,Basketball,Baseball,Tennis
+GROUP: SECURE IN ADVANCE
+Book,Order,Request,Reserve
 
-GROUP: VEHICLES
-Car,Bus,Train,Plane
+GROUP: CRIME ORGANIZATION
+Crew,Family,Ring,Syndicate
 
-GROUP: DRINKS
-Water,Juice,Tea,Coffee
+GROUP: THINGS THAT ARE BITTEN
+Bullet,Dust,Lip,Nail

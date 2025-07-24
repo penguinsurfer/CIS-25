@@ -37,7 +37,7 @@ bool GameManager::loadPuzzle(const string& filename) {
 }
 
 void GameManager::printWords() {
-	cout << "\n Available Words:\n";
+	cout << "\nAvailable Words:\n";
 	for (const string& word : allWords) {
 		if (usedWords.find(word) == usedWords.end()) {
 			cout << word << " ";
